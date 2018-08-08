@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:stripe="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relative"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:columnCount="2"
+                android:orientation="horizontal"
+                android:rowCount="2">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/line1seat1"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/seat_unselected" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/line1seat2"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/seat_unselected"
+                    android:contentDescription="@string/app_name"
+                     />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/line2seat5"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/seat_unselected" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/app_name"
+                    android:id="@+id/line2seat6"
+                  android:src="@drawable/seat_unselected" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/line3seat9"
+                    android:contentDescription="@string/app_name"
+                  android:src="@drawable/seat_unselected" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/line3seat10"
+                    android:contentDescription="@string/app_name"
+                  android:src="@drawable/seat_unselected" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/line4seat13"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/seat_unselected" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/line4seat14"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/seat_unselected" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/line5seat17"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/seat_unselected" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/line5seat18"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/seat_unselected" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/line6seat21"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/seat_unselected" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/line6seat22"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/seat_unselected" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/line5seat25"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/seat_unselected" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/seat_unselected" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/seat_unselected" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/seat_unselected" />
+
+            </GridLayout>
+
+            <Space
+                android:layout_width="30dp"
+                android:layout_height="match_parent" />
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="2"
+                android:orientation="horizontal"
+                android:rowCount="2">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/line1seat3"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/app_name"
+                  android:src="@drawable/seat_unselected" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/line1seat4"
+                    android:contentDescription="@string/app_name"
+                  android:src="@drawable/seat_unselected" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/line2seat7"
+                    android:contentDescription="@string/app_name"
+                  android:src="@drawable/seat_unselected" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/line2seat8"
+                    android:contentDescription="@string/app_name"
+                  android:src="@drawable/seat_unselected" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/line3seat11"
+                    android:contentDescription="@string/app_name"
+                  android:src="@drawable/seat_unselected" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/line3seat12"
+                    android:contentDescription="@string/app_name"
+                  android:src="@drawable/seat_unselected" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/line4seat15"
+                    android:contentDescription="@string/app_name"
+                  android:src="@drawable/seat_unselected" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/line4seat16"
+                    android:contentDescription="@string/app_name"
+                  android:src="@drawable/seat_unselected" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/line5seat19"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/seat_unselected" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/line5seat20"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/seat_unselected" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/line6seat23"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/seat_unselected" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/line6seat24"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/seat_unselected" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/seat_unselected" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/seat_unselected" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/seat_unselected" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/seat_unselected" />
+
+            </GridLayout>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Seat No: "
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:layout_marginLeft="@dimen/size_12dp"
+            android:layout_marginRight="@dimen/size_2dp"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content" />
+
+
+
+        <Button
+            android:id="@+id/btn_fragment"
+            android:background="@color/colorPrimary"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvFragFirst"
+            android:layout_centerInParent="true"
+            android:padding="@dimen/size_8dp"
+            android:text="Done" />
+    </RelativeLayout>
+
+</RelativeLayout>

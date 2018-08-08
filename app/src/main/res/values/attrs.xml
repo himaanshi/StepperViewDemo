@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="stepView">
+
+        <attr name="noOfSteps" format="integer" />
+        <attr name="stepTextSize" format="integer" />
+        <attr name="midLineColor" format="color" />
+        <attr name="midLineWidth" format="integer" />
+        <attr name="midLineHeight" format="integer" />
+
+        <attr name="stepBackground" format="integer" />
+        <attr name="stepTextColor" format="color" />
+
+        <attr name="selectedTextColor" format="color" />
+        <attr name="unSelectedTextColor" format="color" />
+        <attr name="selectedBackground" format="integer"/>
+        <attr name="unSelectedBackground" format="integer"/>
+
+
+    </declare-styleable>
+
+
+</resources>

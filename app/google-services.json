@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "793474575988",
+    "firebase_url": "https://facedetectiondemo-2749e.firebaseio.com",
+    "project_id": "facedetectiondemo-2749e",
+    "storage_bucket": "facedetectiondemo-2749e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793474575988:android:37cf082ecd2991db",
+        "android_client_info": {
+          "package_name": "com.example.paxcel.bustarckingsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "793474575988-jp2qcfa50rco8ldpqk2rg0f5v2d6jlu6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHxSYkThXmeFfhkds4VsKN75wCtE8frTY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

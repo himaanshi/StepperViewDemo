@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="@dimen/size_2dp">
+
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/size_2dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_step_1"
+                    android:layout_width="@dimen/size_28dp"
+                    android:layout_height="@dimen/size_28dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/bg_circle_blue" />
+
+                <TextView
+                    android:id="@+id/tv_step_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text_size_10sp" />
+            </FrameLayout>
+
+            <View
+                android:layout_width="@dimen/size_20dp"
+                android:layout_height="@dimen/size_2dp"
+                android:background="@color/colorPrimary" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_step_2"
+                    android:layout_width="@dimen/size_28dp"
+                    android:layout_height="@dimen/size_28dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/bg_circle_blue" />
+
+                <TextView
+                    android:id="@+id/tv_step_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="2"
+                    android:textColor="@color/colorPrimary" />
+            </FrameLayout>
+
+            <View
+                android:layout_width="@dimen/size_20dp"
+                android:layout_height="@dimen/size_2dp"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimary" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_step_3"
+                    android:layout_width="@dimen/size_28dp"
+                    android:layout_height="@dimen/size_28dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/bg_circle_blue" />
+
+                <TextView
+                    android:id="@+id/tv_step_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="3"
+                    android:textColor="@color/colorPrimary" />
+            </FrameLayout>
+
+
+            <View
+                android:layout_width="@dimen/size_20dp"
+                android:layout_height="@dimen/size_2dp"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimary" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_step_4"
+                    android:layout_width="@dimen/size_28dp"
+                    android:layout_height="@dimen/size_28dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/bg_circle_blue" />
+
+                <TextView
+                    android:id="@+id/tv_step_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="4"
+                    android:textColor="@color/colorPrimary" />
+            </FrameLayout>
+
+            <View
+                android:layout_width="@dimen/size_20dp"
+                android:layout_height="@dimen/size_2dp"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimary" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_step_5"
+                    android:layout_width="@dimen/size_28dp"
+                    android:layout_height="@dimen/size_28dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/bg_circle_blue" />
+
+                <TextView
+                    android:id="@+id/tv_step_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="5"
+                    android:textColor="@color/colorPrimary" />
+            </FrameLayout>
+
+            <View
+                android:layout_width="@dimen/size_20dp"
+                android:layout_height="@dimen/size_2dp"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimary" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_step_6"
+                    android:layout_width="@dimen/size_28dp"
+                    android:layout_height="@dimen/size_28dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/bg_circle_blue" />
+
+                <TextView
+                    android:id="@+id/tv_step_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="6"
+
+                    android:textColor="@color/colorPrimary" />
+            </FrameLayout>
+
+            <View
+                android:layout_width="@dimen/size_20dp"
+                android:layout_height="@dimen/size_2dp"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimary" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_step_7"
+                    android:layout_width="@dimen/size_28dp"
+                    android:layout_height="@dimen/size_28dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/bg_circle_blue" />
+
+                <TextView
+                    android:id="@+id/tv_step_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="7"
+
+                    android:textColor="@color/colorPrimary" />
+            </FrameLayout>
+
+            <View
+                android:layout_width="@dimen/size_20dp"
+                android:layout_height="@dimen/size_2dp"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimary" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_step_8"
+                    android:layout_width="@dimen/size_28dp"
+                    android:layout_height="@dimen/size_28dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/bg_circle_blue" />
+
+                <TextView
+                    android:id="@+id/tv_step_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="8"
+                    android:textColor="@color/colorPrimary" />
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</LinearLayout>
