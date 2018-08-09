@@ -25,7 +25,7 @@ public class TabActivity extends AppCompatActivity {
 
     TabLayout tabLayout;
     ViewPager viewPager;
-    int indexSelected, indexUnselected;
+    int indexSelected;
     ViewPagerAdapter viewPagerAdapter;
     StepView stepView;
 
@@ -51,33 +51,18 @@ public class TabActivity extends AppCompatActivity {
             public void onTabSelected(TabLayout.Tab tab) {
 
                 indexSelected = tab.getPosition();
-                Log.e("currentIndex", "Tab Selected" + indexSelected);
-                Log.e("currentIndex", "Tab Unselected" + indexUnselected);
 
                 stepView.setSelected(indexSelected); // stepper view
-
-
-                if (indexUnselected > indexSelected) {
-
-                    stepView.setSelected(indexSelected);
-
-                }
-
 
             }
 
             @Override
             public void onTabUnselected(TabLayout.Tab tab) {
 
-                indexUnselected = tab.getPosition();
-                Log.e("currentIndex", "onTabUnselected" + indexUnselected);
-
-
             }
 
             @Override
             public void onTabReselected(TabLayout.Tab tab) {
-                Log.e("currentIndex", "onTabReselected" + indexUnselected);
 
             }
         });
@@ -110,15 +95,13 @@ public class TabActivity extends AppCompatActivity {
                 fragment = new DestinationFragment();
             } else if (position == 2) {
                 fragment = new CalenderFragment();
-            }else if (position == 3) {
-                fragment = new ImagesFragment();
             }
             return fragment;
         }
 
         @Override
         public int getCount() {
-            return 4;
+            return 3;
         }
 
         @Override
@@ -130,9 +113,8 @@ public class TabActivity extends AppCompatActivity {
                 title = "DESTINATION";
             } else if (position == 2) {
                 title = "CALENDER";
-            }else if (position == 3) {
-                title = "IMAGES";
             }
+
             return title;
         }
     }
